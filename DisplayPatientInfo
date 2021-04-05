@@ -65,6 +65,7 @@
                          
                           
                           <td><a href="DisplayPatientHealthStatus.jsp?id=<%=ID%>">Patient Main Traiage Information</a></td>
+                          <td><a href="AssignPatient.jsp?id=<%=ID%>&doctorID=<%=doctorID%>">Assign Patient</a></td>
                          
                           <% rowNumber++; %>
                       </tr>
